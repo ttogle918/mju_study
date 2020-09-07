@@ -1,0 +1,298 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\rat\\MorpRubins1\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\rat\\MorpRubins1\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "92,151",
+                        "endColumns": "57,55",
+                        "endOffsets": "145,202"
+                    },
+                    "to": {
+                        "startLines": "21,22",
+                        "startColumns": "4,4",
+                        "startOffsets": "534,592",
+                        "endColumns": "57,55",
+                        "endOffsets": "587,643"
+                    }
+                },
+                {
+                    "source": "D:\\rat\\MorpRubins1\\app\\src\\main\\res\\values\\arrays.xml",
+                    "from": {
+                        "startLines": "2,12,17",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "57,289,405",
+                        "endLines": "10,15,22",
+                        "endColumns": "19,19,19",
+                        "endOffsets": "277,393,561"
+                    },
+                    "to": {
+                        "startLines": "2,11,15",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,272,378",
+                        "endLines": "10,14,20",
+                        "endColumns": "19,19,19",
+                        "endOffsets": "267,373,529"
+                    }
+                },
+                {
+                    "source": "D:\\rat\\MorpRubins1\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,3,7,5,8,6",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "102,59,247,156,281,210",
+                        "endColumns": "52,41,32,52,41,35",
+                        "endOffsets": "150,96,275,204,318,241"
+                    },
+                    "to": {
+                        "startLines": "23,24,25,26,27,28",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "648,701,743,768,821,863",
+                        "endColumns": "52,41,24,52,41,35",
+                        "endOffsets": "696,738,763,816,858,894"
+                    }
+                },
+                {
+                    "source": "D:\\rat\\MorpRubins1\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "191,522",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "481,679"
+                    },
+                    "to": {
+                        "startLines": "29,36",
+                        "startColumns": "4,4",
+                        "startOffsets": "899,1190",
+                        "endLines": "35,38",
+                        "endColumns": "12,12",
+                        "endOffsets": "1185,1345"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\inging\\app\\build\\intermediates\\res\\merged\\debug\\values-sw720dp-land-v13_values-sw720dp-land-v13.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\inging\\app\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "205",
+                        "endColumns": "58",
+                        "endOffsets": "259"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "58",
+                        "endOffsets": "109"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\rat\\MorpRubins1\\app\\build\\intermediates\\res\\merged\\debug\\values-v11_values-v11.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\rat\\MorpRubins1\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "182",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "316"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "187"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\inging\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\inging\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "191,522",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "481,679"
+                    },
+                    "to": {
+                        "startLines": "29,36",
+                        "startColumns": "4,4",
+                        "startOffsets": "899,1190",
+                        "endLines": "35,38",
+                        "endColumns": "12,12",
+                        "endOffsets": "1185,1345"
+                    }
+                },
+                {
+                    "source": "D:\\inging\\app\\src\\main\\res\\values\\arrays.xml",
+                    "from": {
+                        "startLines": "2,12,17",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "57,289,405",
+                        "endLines": "10,15,22",
+                        "endColumns": "19,19,19",
+                        "endOffsets": "277,393,561"
+                    },
+                    "to": {
+                        "startLines": "2,11,15",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,272,378",
+                        "endLines": "10,14,20",
+                        "endColumns": "19,19,19",
+                        "endOffsets": "267,373,529"
+                    }
+                },
+                {
+                    "source": "D:\\inging\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "92,151",
+                        "endColumns": "57,55",
+                        "endOffsets": "145,202"
+                    },
+                    "to": {
+                        "startLines": "21,22",
+                        "startColumns": "4,4",
+                        "startOffsets": "534,592",
+                        "endColumns": "57,55",
+                        "endOffsets": "587,643"
+                    }
+                },
+                {
+                    "source": "D:\\inging\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,3,7,5,8,6",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "102,59,247,156,281,210",
+                        "endColumns": "52,41,32,52,41,35",
+                        "endOffsets": "150,96,275,204,318,241"
+                    },
+                    "to": {
+                        "startLines": "23,24,25,26,27,28",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "648,701,743,768,821,863",
+                        "endColumns": "52,41,24,52,41,35",
+                        "endOffsets": "696,738,763,816,858,894"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\rat\\MorpRubins1\\app\\build\\intermediates\\res\\merged\\debug\\values-sw720dp-land-v13_values-sw720dp-land-v13.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\rat\\MorpRubins1\\app\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "205",
+                        "endColumns": "58",
+                        "endOffsets": "259"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "58",
+                        "endOffsets": "109"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\rat\\MorpRubins1\\app\\build\\intermediates\\res\\merged\\debug\\values-v14_values-v14.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\rat\\MorpRubins1\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "from": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "225",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "373"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "201"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\inging\\app\\build\\intermediates\\res\\merged\\debug\\values-v11_values-v11.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\inging\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "182",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "316"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "187"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\inging\\app\\build\\intermediates\\res\\merged\\debug\\values-v14_values-v14.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\inging\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "from": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "225",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "373"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "201"
+                    }
+                }
+            ]
+        }
+    ]
+}

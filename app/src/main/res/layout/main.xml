@@ -1,0 +1,271 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/testtest"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80ffffff"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="550px"
+            android:layout_weight="15"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RelativeLayout
+                    android:id="@+id/drawimage1"
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" >
+
+                    <ImageView
+                        android:id="@+id/backimage"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffffffff"
+                        android:scaleType="matrix"
+                        android:visibility="visible" />
+
+                    <com.example.inging.PaintBoard_TX
+                        android:id="@+id/draw_board"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:id="@+id/text_first"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="로그인이 필요합니다"
+                        android:textSize="20sp" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#00a4d8" >
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/textScroller"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/def" />
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="clip_vertical" >
+
+            <EditText
+                android:id="@+id/inputField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:hint="닉네임을 입력해 주세요"
+                android:gravity="left"
+                android:ems="10" >
+                <requestFocus />
+            </EditText>
+
+            <ImageButton
+                android:id="@+id/sendButton"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_weight="1.5"
+                android:layout_marginTop="20dp"
+                android:gravity="right"
+                android:background="#00ff0000"
+                android:scaleType="centerInside"
+                android:src="@drawable/send"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#a9cae1"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <LinearLayout
+                    android:id="@+id/layout_menu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|center_horizontal" >
+
+                    <ImageButton
+                        android:id="@+id/menu_paintboard"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="50dp"
+                        android:src="@drawable/unlocked"
+                        android:scaleType="centerInside"
+                        android:background="#00ff0000" />
+
+                    <ImageButton
+                        android:id="@+id/menu_pen_select"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="50dp"
+                        android:background="#00ff0000"
+                        android:src="@drawable/pen" />
+
+                    <ImageButton
+                        android:id="@+id/menu_color"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="50dp"
+                        android:background="#00ff0000"
+                        android:src="@drawable/color" />
+
+                    <ImageButton
+                        android:id="@+id/menu_bold"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="50dp"
+                        android:background="#00ff0000"
+                        android:src="@drawable/thick" />
+
+                    <ImageButton
+                        android:id="@+id/menu_draw"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="50dp"
+                        android:background="#00ff0000"
+                        android:text="그리기 도구"
+                        android:visibility="gone" />
+
+                    <ImageButton
+                        android:id="@+id/menu_clear"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="50dp"
+                        android:background="#00ff0000"
+                        android:padding="0dp"
+                        android:src="@drawable/eraser" />
+
+                    <ImageButton
+                        android:id="@+id/menu_save"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="50dp"
+                        android:background="#00ff0000"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/load"
+                        android:text="이미지 저장" />
+
+                    <ImageButton
+                        android:id="@+id/menu_load"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="50dp"
+                        android:background="#00ff0000"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/file"
+                        android:text="이미지 불러오기" />
+
+                    <ImageButton
+                        android:id="@+id/claer"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="50dp"
+                        android:background="#00ff0000"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/clear"
+                        android:text="clear" />
+
+                    <ImageButton
+                        android:id="@+id/exit"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="50dp"
+                        android:background="#00ff0000"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/xbutton" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/layout_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:visibility="invisible" >
+
+                    <ImageButton
+                        android:id="@+id/pen_nomal"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="50dp"
+                        android:background="#00ff0000"
+                        android:src="@drawable/pen" />
+
+                    <ImageButton
+                        android:id="@+id/pen_neon"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="50dp"
+                        android:background="#00ff0000"
+                        android:src="@drawable/neon" />
+
+                    <ImageButton
+                        android:id="@+id/pen_neon1"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="50dp"
+                        android:background="#00ff0000"
+                        android:src="@drawable/neon2" />
+
+                    <ImageButton
+                        android:id="@+id/pen_spray"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="50dp"
+                        android:background="#00ff0000"
+                        android:src="@drawable/spray" />
+
+                    <ImageButton
+                        android:id="@+id/pen_spray1"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="50dp"
+                        android:background="#00ff0000"
+                        android:src="@drawable/spray2" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
