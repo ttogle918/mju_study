@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">잉Ing</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="send">전송</string>
+    <string name="def"></string>
+    <string name="no_color">색 없음</string>
+
+</resources>
