@@ -26,7 +26,9 @@ https://github.com/ttogle918/Practice_Android
 ----------
 
 
-## findProduct - java
+## Eclipse - java
+
+### findProduct - java
 마트에서 재고량을 파악할 수 있도록 하는 상품탐색기이다. 
 자료구조에 중점을 두어 가장 적절한 sort를 사용하는 것이 목적이다.
 
@@ -41,6 +43,9 @@ https://github.com/ttogle918/Practice_Android
   + 인기 검색 / 즐겨찾기
 + ![findProduct](./findProduct/example1.JPG)
 
+
+### GraphicEditor - java
+그림판 구현
 ---------
 
 
