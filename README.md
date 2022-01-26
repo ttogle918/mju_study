@@ -1,5 +1,14 @@
-블로그(오류정리) : https://zena1010.tistory.com/category/%EC%BD%94%EB%94%A9 
+### 블로그(오류정리) : https://zena1010.tistory.com/category/%EC%BD%94%EB%94%A9 
+-----------------------
+<br>
 
+## algorithm
+### 알고리즘 문제 풀이
+문제 제공처 : 
++ 나동빈(2020), 『이것이 취업을 위한 코딩 테스트다 with 파이썬』
++ 주(그렙), https://programmers.co.kr/
+<br><br>
+-------
 
 ## 안드로이드
 
@@ -7,6 +16,8 @@
 실시간으로 그림판을 공유하여 함께 그릴 수 있는 그림판
 server를 켠 뒤 client 앱을 시작하면 그림판을 사용할 수 있다.
 6개 기기까지 테스트 완료
+
+현재 실행 불가
 
 + Ping 이용
 + client : android studio, java, xml
@@ -16,11 +27,14 @@ server를 켠 뒤 client 앱을 시작하면 그림판을 사용할 수 있다.
 + 한 일 : 그림판 구현, 실시간 공유 기능 설계 및 구현, 보고서 작성
 + ![entry2](./inging/example_inging.JPG)
 
+<br><br>
 
-### 롯데 배송 앱(직원용) layout 구현
+-------------------------------
+## 롯데 배송 앱(직원용) layout 구현
 https://github.com/ttogle918/EmulateLotteDelivery
 
-### 안드로이드 사용 방법 ( 코드 )
+---------
+## 안드로이드 사용 방법 ( 코드 )
 https://github.com/ttogle918/Practice_Android 
 
 ----------
@@ -42,12 +56,15 @@ https://github.com/ttogle918/Practice_Android
   + 행사 상품
   + 인기 검색 / 즐겨찾기
 + ![findProduct](./findProduct/example1.JPG)
+<br><br>
 
+---------------
 
-### GraphicEditor - java
+## GraphicEditor - java
 그림판 구현
----------
+<br><br>
 
+-------------------
 
 ## 간단한 OS 만들기 - assembly
 printf가 되는 os 생성
