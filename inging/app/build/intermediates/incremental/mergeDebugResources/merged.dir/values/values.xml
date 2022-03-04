@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bold">
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+        <item>17</item>
+        <item>30</item>
+        <item>50</item>
+        <item>70</item>
+    </string-array>
+    <string-array name="delete">
+        <item>지우개</item>
+        <item>전부 지우기</item>
+    </string-array>
+    <string-array name="draw">
+        <item>Pen</item>
+        <item>Line</item>
+        <item>Rect</item>
+        <item>Circle</item>
+    </string-array>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">잉Ing</string>
+    <string name="def"/>
+    <string name="hello_world">Hello world!</string>
+    <string name="no_color">색 없음</string>
+    <string name="send">전송</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>
